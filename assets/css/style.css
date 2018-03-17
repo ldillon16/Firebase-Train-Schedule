@@ -1,5 +1,5 @@
 .container {
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Comfortaa', sans-serif;
 	background: #b3b3ff;
 	margin-top: 20px;
 	padding-left: 50px;
@@ -12,15 +12,28 @@
 }
 
 h3 {
-	color: gray;
+	color: darkblue;
+	text-shadow: 1px 1px 2px white;
 }
+
+
+.btn {
+	color: darkblue;
+	background: linear-gradient(#eeffe6, #bbff99);
+	border: solid;
+	border-width: 1px;
+	border-color: lightgray;
+	box-shadow: 
+}
+
 
 .jumbotron {
 	background: #adebeb;
 	margin-top: 20px;
-	border: solid;
-	border-color: #666666;
+/*	border: solid;
+	border-color: #666666;*/
 	color: ghostwhite;
+	box-shadow: 1px 1px 2px purple, 0 0 25px blue, 0 0 5px darkblue;
 
 }
 
@@ -28,24 +41,17 @@ h3 {
 
 .panel {
 	background: #adebeb;
-	border: solid;
-	border-color: gray;
+/*	border: solid;
+	border-color: gray;*/
 	border-width: 2px;
-	color: gray;
+	color: darkblue;
+	box-shadow: 1px 1px 2px purple, 0 0 25px blue, 0 0 5px darkblue;
 }
 
 .panel-heading {
 	background: #85e0e0;
 }
 
-.btn-primary {
-	background: linear-gradient(lightgray, gray);
-	border: solid;
-	border-width: 1px;
-	border-color: gray;
-	box-shadow: 
-}
-
 body {
-	background: #ccccff;
+	background: #bbff99;
 }

@@ -74,8 +74,8 @@
       .append($("<td>").text(minNextTrain))
       .append($("<td>")
         .append("<input type='button' value='remove' class='btn btn-primary' text=remove>"))
-      .append($("<td>")
-        .append("<input type='button' value='update' class='btn btn-primary' text=update>"))
+      // .append($("<td>")
+      //   .append("<input type='button' value='update' class='btn btn-primary' text=update>"))
                
     newTable.append(newRow)
     $("#tbody").append(newRow);
@@ -84,11 +84,13 @@
       $(this).closest("tr").remove()
       })
 
-    $("table").on("click", "input[value='update']", function(){
-      $(this).closest('tr')
- 
+    // $("table").on("click", "input[value='update']", function(){
+    //   // $(this).closest('tr')
+    //     var htmltext = "<tr><td><input id='name-input" + input + "' type='text' value='"</td>""
+
+
 
     })
 
 
-    })
+    
