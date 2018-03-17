@@ -63,7 +63,7 @@
   var minNextTrain = calcFreq - timeRemainder;
 
   // time next train will actually arrive
-  var nextTrain = moment().add(minNextTrain, "minutes").format("HH:mm");
+  var nextTrain = moment().add(minNextTrain, "minutes").format("hh:mm A");
 
     var newTable = $("<table>").addClass("table")
     var newRow = $("<tr>");
